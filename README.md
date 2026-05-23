@@ -26,11 +26,3 @@ Several algorithms were evaluated on a stratified 20% holdout test set. Due to t
 | **Random Forest** | 56.56% | 51.34% | 52.95% | 51.83% | 69.96% |
 | **XGBoost** | 53.86% | 50.93% | 55.36% | 51.35% | 71.65% |
 | **SVM (Top Performer)**| **56.95%** | **51.91%** | **53.72%** | **52.53%** | **70.71%** |
-
-## 📁 Repository Structure
-* `/data` - Raw and processed molecular datasets.
-* `/scripts`
-  * `01_data_cleaning_and_eda.R` - Data ingestion and exploratory analysis.
-  * `02_feature_selection.R` - Multi-method feature extraction.
-  * `03_model_training.R` - Pipeline for SVM, XGBoost, RF, and Ensembles.
-  * `04_model_evaluation.R` - Confusion matrices and performance metrics.
